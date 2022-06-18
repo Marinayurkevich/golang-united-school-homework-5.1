@@ -1,5 +1,7 @@
 package square
 
+import "math"
+	
 type Point struct {
 	x, y int
 }
@@ -9,14 +11,16 @@ type Square struct {
 	a     uint
 }
 
-func (receiver) End() Point {
-	// implement me
+func (x, y Point) End() Point {
+	x=x+a
+	y=y-a
+	return x, y
 }
 
-func (receiver) Area() uint {
-	// implement me
+func (a Square) Area() uint {
+	return math.Sqrt(a)
 }
 
-func (receiver) Perimeter() uint {
-	// implement me
+func (a Square) Perimeter() uint {
+	return a*4
 }
