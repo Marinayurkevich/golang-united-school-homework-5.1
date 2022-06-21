@@ -11,18 +11,18 @@ type Square struct {
 	a     uint
 }
 
-func (x1, y1 Point) End() Point {
-	x1 = x+a
-	y1 = y-a
-	return x1, y1
+func (t1 Point) End() Point {
+	x1 := x+a
+	y1 := y+a
+	return t1.x1, t1.y1
 }
 
-func (a Square) Area() uint {
+func (s Square) Area() uint {
 s =  math.Sqrt(a)
 	return s
 }
 
-func (b Square) Perimeter() uint {
-p = math.Pow(a,4)
+func (p Square) Perimeter() uint {
+p = a*4
 	return p
 }
