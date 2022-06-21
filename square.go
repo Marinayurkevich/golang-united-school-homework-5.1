@@ -11,10 +11,9 @@ type Square struct {
 	a     uint
 }
 
-func (t1 Point) End() Point {
-	x1 := x+a
-	y1 := y+a
-	return t1.x1, t1.y1
+func (start Point) End() Point {
+	End=start+a
+	return End
 }
 
 func (s Square) Area() uint {
