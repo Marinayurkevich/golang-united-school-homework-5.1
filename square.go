@@ -11,8 +11,8 @@ type Square struct {
 	a     uint
 }
 
-func (e Point) End() Point {
-	return e.Point+a
+func (e Square) End() Point {
+	return e.start+e.a
 }
 
 func (s Square) Area() uint {
