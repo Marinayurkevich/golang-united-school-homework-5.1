@@ -11,17 +11,17 @@ type Square struct {
 	a     uint
 }
 
-func (start Point) End() Point {
-	End=start+a
+func (receiver) End() Point {
+	End = Square.start+a
 	return End
 }
 
-func (s Square) Area() uint {
-s =  math.Sqrt(a)
-	return s
+func (receiver) Area() uint {
+Area =  math.Sqrt(a)
+	return Area
 }
 
-func (p Square) Perimeter() uint {
-p = a*4
-	return p
+func (receiver) Perimeter() uint {
+Perimeter = 4*Square.a
+	return Perimeter
 }
