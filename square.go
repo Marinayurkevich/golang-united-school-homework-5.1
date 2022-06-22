@@ -11,7 +11,7 @@ type Square struct {
 }
 
 func (e Square) End() Point {
-e:=Point{
+e.start:=Point{
 x=x+e.a
 y=y+e.a
 }
