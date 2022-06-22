@@ -1,6 +1,5 @@
 package square
 
-import "math"
 	
 type Point struct {
 	x, y int
@@ -12,7 +11,11 @@ type Square struct {
 }
 
 func (e Square) End() Point {
-	return e.start+e.a
+e:=Point{
+x=x+e.a
+y=y+e.a
+}
+	return e.start
 }
 
 func (s Square) Area() uint {
