@@ -12,7 +12,7 @@ type Square struct {
 }
 
 func (e Point) End() Point {
-	return e.x + a, e.y + a
+	return e.x + Square.a, e.y + Square.a
 }
 
 func (s Square) Area() uint {
