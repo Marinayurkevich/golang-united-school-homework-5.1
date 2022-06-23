@@ -13,8 +13,9 @@ type Square struct {
 func (v Square) End() Point {
 var e Point
 var a int = int(v.a)
-e.x += v.a
-e.y -= v.a
+a := v.a
+e.x += a
+e.y -= a
 	return e
 }
 
