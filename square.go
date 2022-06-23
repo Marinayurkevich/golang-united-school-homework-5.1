@@ -14,7 +14,7 @@ func (v Square) End() Point {
 var e Point
 var a int = int(v.a)
 e.x = e.x + a
-e.y = e.y + a
+e.y = e.y - a
 	return e
 }
 
