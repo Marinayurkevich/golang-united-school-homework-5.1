@@ -10,10 +10,10 @@ type Square struct {
 	a     uint
 }
 
-func (e Square) End() Point {
-e:=Point(x,y)
-p:=&e
-p.x = x+Square.a
+func (v Square) End() Point {
+var e Point
+e.x += v.a
+e.y -= v.a
 	return e
 }
 
