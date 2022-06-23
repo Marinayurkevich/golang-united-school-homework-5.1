@@ -15,7 +15,7 @@ var e Point
 var a int = int(v.a)
 e.x = e.x + a
 e.y = e.y - a
-	return e
+	return &e
 }
 
 func (s Square) Area() uint {
